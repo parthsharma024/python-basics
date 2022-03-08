@@ -96,4 +96,46 @@ Q.9). Write a Python program to enter marks of a student in five subjects and th
 # b=int(input("enter  A NO  "))
 # c=(2*(a+b))
 # print(c)
+DICTIONARY
+myDict = {
+    "fast": "In a Quick Manner",
+    "harry": "A Coder",
+    "marks": [1, 2, 5],
+    "anotherdict": {'harry': 'Player'},
+    1: 2
+}
+
+print(myDict.keys())
+print(myDict.values())
+print(myDict.keys())
+print(myDict.keys())
+print(myDict.keys())
+print(myDict.values())
+print(myDict)
+print(myDict.items()) # Prints the (key, value) for all contents of the dictionary 
+print(myDict)
+updateDict = {
+    "Lovish": " parth sharma ",
+    "Divya": "Frien sharma d",
+    "Shubham": "Friend",
+    "harry": "A  parth sharma Dancer"
+}
+myDict.update(updateDict) # Updates the dictionary by adding key-value pairs from updateDict
+print(myDict)
+print(myDict.items()) # Prints the (key, value) for all contents of the dictionary 
+print(myDict)
+updateDict = {
+    "Lovish": "Friend",
+    "Divya": "Friend",
+    "Shubham": "Friend",
+    "harry": "A Dancer"
+}
+myDict.update(updateDict) # Updates the dictionary by adding key-value pairs from updateDict
+print(myDict)
+print(myDict.get("harry")) # Prints value associated with
+
+print(myDict.get("harry")) # Prints value associated withprint(myDict.get("harry")) # Prints value associated wit
+
+print(myDict.get("Shubham"))
+
 
