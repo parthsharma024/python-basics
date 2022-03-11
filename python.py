@@ -137,5 +137,17 @@ print(myDict.get("harry")) # Prints value associated with
 print(myDict.get("harry")) # Prints value associated withprint(myDict.get("harry")) # Prints value associated wit
 
 print(myDict.get("Shubham"))
+    Q)to find the parameter and area of a given rectangle
 
+length=200
+breadh=150
+perimeter=2*(length+breadh)
+area=length*breadh
+print(perimeter)
+fencingrate=175
+total1=fencingrate*perimeter
+print(total1)
+ploughing=200
+total=ploughing*area
+print(total)
 
